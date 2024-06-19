@@ -1,0 +1,915 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project>
+    <fileVersion>5</fileVersion>
+    <fileChecksum>4069619152</fileChecksum>
+    <configuration>
+        <name>VGdemoKit</name>
+        <outputs>
+            <file>$PROJ_DIR$\..\BSP\radio\src\radio.c</file>
+            <file>$PROJ_DIR$\..\BSP\radio\src\sx126x.c</file>
+            <file>$PROJ_DIR$\..\Core\Src\system_stm32f1xx.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_spi.c</file>
+            <file>$PROJ_DIR$\..\BSP\radio\inc\sx126x.h</file>
+            <file>$PROJ_DIR$\startup_stm32f103xe.s</file>
+            <file>$PROJ_DIR$\..\Core\Src\usart.c</file>
+            <file>$PROJ_DIR$\..\Core\Src\stm32f1xx_it.c</file>
+            <file>$PROJ_DIR$\..\Core\Src\stm32f1xx_hal_msp.c</file>
+            <file>$PROJ_DIR$\..\Core\Src\main.c</file>
+            <file>$PROJ_DIR$\..\BSP\radio\inc\radio.h</file>
+            <file>$PROJ_DIR$\..\BSP\radio\src\crc.c</file>
+            <file>$PROJ_DIR$\..\Core\Src\gpio.c</file>
+            <file>$PROJ_DIR$\..\Core\Src\spi.c</file>
+            <file>$PROJ_DIR$\..\BSP\radio\inc\crc.h</file>
+            <file>$PROJ_DIR$\..\BSP\radio\inc\sx126x-board.h</file>
+            <file>$PROJ_DIR$\..\Tools\MALLOC\malloc.h</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\Include\cmsis_version.h</file>
+            <file>$PROJ_DIR$\VGdemoKit\Obj\Application\User\Core\gpio.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\inttypes.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdlib.h</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f1xx.h</file>
+            <file>$PROJ_DIR$\..\Tools\LIST\linux_list.h</file>
+            <file>$PROJ_DIR$\VGdemoKit\Obj\Tools\flashDB\fdb_utils.o</file>
+            <file>$PROJ_DIR$\..\Tools\MAC\mac_port.h</file>
+            <file>$PROJ_DIR$\..\Tools\flashDB\flashdb.h</file>
+            <file>$TOOLKIT_DIR$\lib\rt7M_tl.a</file>
+            <file>$PROJ_DIR$\VGdemoKit\Obj\Drivers\STM32F1xx_HAL_Driver\stm32f1xx_hal_tim.o</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\Include\cmsis_iccarm.h</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_def.h</file>
+            <file>$PROJ_DIR$\VGdemoKit\Obj\Tools\MAC\mac_test.o</file>
+            <file>$PROJ_DIR$\..\Tools\flashDB\fdb_def.h</file>
+            <file>$PROJ_DIR$\..\Core\Inc\stm32f1xx_it.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\ycheck.h</file>
+            <file>$PROJ_DIR$\..\Tools\Crypto\lorawan_aes.h</file>
+            <file>$PROJ_DIR$\..\Core\Inc\gpio.h</file>
+            <file>$PROJ_DIR$\..\Tools\MULTI_TIMER\MultiTimer.h</file>
+            <file>$PROJ_DIR$\VGdemoKit\Obj\Tools\MAC\mac_port.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdarg.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdio.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\string.h</file>
+            <file>$PROJ_DIR$\VGdemoKit\Obj\Drivers\STM32F1xx_HAL_Driver\stm32f1xx_hal_flash_ex.o</file>
+            <file>$PROJ_DIR$\VGdemoKit\Obj\Tools\flashDB\fal\fal_partition.o</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\system_stm32f1xx.h</file>
+            <file>$PROJ_DIR$\..\Core\Inc\main.h</file>
+            <file>$PROJ_DIR$\VGdemoKit\Obj\Tools\AES\lorawan_aes.o</file>
+            <file>$PROJ_DIR$\..\Tools\ATcmd\ATport.h</file>
+            <file>$PROJ_DIR$\VGdemoKit\Obj\Tools\ATcmd\ATport.o</file>
+            <file>$PROJ_DIR$\VGdemoKit\Obj\Application\User\Core\usart.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdbool.h</file>
+            <file>$PROJ_DIR$\VGdemoKit\Obj\Application\User\Core\spi.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\ysizet.h</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Inc\Legacy\stm32_hal_legacy.h</file>
+            <file>$PROJ_DIR$\..\Tools\flashDB\fal\fal.h</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\Device\ST\STM32F1xx\Include\stm32f103xe.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_stdlib.h</file>
+            <file>$PROJ_DIR$\VGdemoKit\Obj\Drivers\STM32F1xx_HAL_Driver\stm32f1xx_hal_gpio.o</file>
+            <file>$PROJ_DIR$\VGdemoKit\Obj\Tools\list.o</file>
+            <file>$PROJ_DIR$\VGdemoKit\Obj\Application\User\Core\main.o</file>
+            <file>$PROJ_DIR$\VGdemoKit\Obj\Tools\MAC\mac.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Config_Full.h</file>
+            <file>$PROJ_DIR$\VGdemoKit\Obj\Tools\AES\mac_aes.o</file>
+            <file>$PROJ_DIR$\VGdemoKit\Obj\Tools\flashDB\fdb_kvdb.o</file>
+            <file>$PROJ_DIR$\..\Core\Inc\lora.h</file>
+            <file>$PROJ_DIR$\stm32f103xe_flash.icf</file>
+            <file>$PROJ_DIR$\VGdemoKit\Exe\VGdemoKit.out</file>
+            <file>$PROJ_DIR$\VGdemoKit\Obj\BSP\Radio\Lora\src\sx126x.o</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash_ex.h</file>
+            <file>$PROJ_DIR$\VGdemoKit\Obj\Tools\BLK\blink.o</file>
+            <file>$PROJ_DIR$\VGdemoKit\Obj\Tools\flashDB\fal\fal.o</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma_ex.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Defaults.h</file>
+            <file>$PROJ_DIR$\VGdemoKit\Obj\Drivers\STM32F1xx_HAL_Driver\stm32f1xx_hal_flash.o</file>
+            <file>$PROJ_DIR$\VGdemoKit\Obj\Tools\MultiTimer.o</file>
+            <file>$PROJ_DIR$\VGdemoKit\Obj\BSP\Radio\Lora\src\radio.o</file>
+            <file>$TOOLKIT_DIR$\inc\c\LowLevelIOInterface.h</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_dma.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_float_setup.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\time.h</file>
+            <file>$PROJ_DIR$\VGdemoKit\Obj\Tools\malloc.o</file>
+            <file>$PROJ_DIR$\VGdemoKit\Obj\Drivers\STM32F1xx_HAL_Driver\stm32f1xx_hal_gpio_ex.o</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc_ex.h</file>
+            <file>$PROJ_DIR$\VGdemoKit\Obj\Application\User\Core\stm32f1xx_hal_msp.o</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal.h</file>
+            <file>$PROJ_DIR$\VGdemoKit\Obj\Drivers\STM32F1xx_HAL_Driver\stm32f1xx_hal_pwr.o</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_cortex.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\DLib_Product_string.h</file>
+            <file>$PROJ_DIR$\..\Tools\flashDB\fdb_cfg.h</file>
+            <file>$PROJ_DIR$\VGdemoKit\List\VGdemoKit.map</file>
+            <file>$PROJ_DIR$\VGdemoKit\Obj\Drivers\STM32F1xx_HAL_Driver\stm32f1xx_hal_dma.o</file>
+            <file>$PROJ_DIR$\VGdemoKit\Obj\Drivers\CMSIS\system_stm32f1xx.o</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_rcc.h</file>
+            <file>$PROJ_DIR$\..\Core\Inc\spi.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\time64.h</file>
+            <file>$PROJ_DIR$\VGdemoKit\Obj\Drivers\STM32F1xx_HAL_Driver\stm32f1xx_hal_uart.o</file>
+            <file>$PROJ_DIR$\VGdemoKit\Obj\Tools\flashDB\fal\fal_flash.o</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\Include\core_cm3.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\stddef.h</file>
+            <file>$PROJ_DIR$\..\Tools\flashDB\fal_cfg.h</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio.h</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_spi.h</file>
+            <file>$PROJ_DIR$\VGdemoKit\Obj\Drivers\STM32F1xx_HAL_Driver\stm32f1xx_hal_rcc_ex.o</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_flash.h</file>
+            <file>$PROJ_DIR$\..\Core\Inc\usart.h</file>
+            <file>$PROJ_DIR$\VGdemoKit\Obj\BSP\Radio\Lora\src\crc.o</file>
+            <file>$PROJ_DIR$\VGdemoKit\Obj\Application\EWARM\startup_stm32f103xe.o</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_pwr.h</file>
+            <file>$PROJ_DIR$\VGdemoKit\Obj\Drivers\STM32F1xx_HAL_Driver\stm32f1xx_hal_tim_ex.o</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_uart.h</file>
+            <file>$PROJ_DIR$\VGdemoKit\Obj\Tools\flashDB\fal\fal_flash_stm32f1_port.o</file>
+            <file>$PROJ_DIR$\..\Tools\ATcmd\ATcmd.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\yvals.h</file>
+            <file>$PROJ_DIR$\..\Tools\flashDB\fdb_low_lvl.h</file>
+            <file>$PROJ_DIR$\..\Tools\flashDB\fal\fal_def.h</file>
+            <file>$PROJ_DIR$\VGdemoKit\Obj\Tools\MAC\mac_phy.o</file>
+            <file>$PROJ_DIR$\..\Tools\LIST\list.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\math.h</file>
+            <file>$PROJ_DIR$\VGdemoKit\Obj\Tools\flashDB\fdb.o</file>
+            <file>$PROJ_DIR$\VGdemoKit\Obj\Drivers\STM32F1xx_HAL_Driver\stm32f1xx_hal_exti.o</file>
+            <file>$PROJ_DIR$\VGdemoKit\Obj\Drivers\STM32F1xx_HAL_Driver\stm32f1xx_hal_cortex.o</file>
+            <file>$PROJ_DIR$\VGdemoKit\Obj\Application\User\Core\stm32f1xx_it.o</file>
+            <file>$PROJ_DIR$\..\Tools\Crypto\mac_aes.h</file>
+            <file>$PROJ_DIR$\..\Tools\BLK\blink.h</file>
+            <file>$PROJ_DIR$\VGdemoKit\Exe\VGdemoKit.hex</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_exti.h</file>
+            <file>$PROJ_DIR$\VGdemoKit\Obj\Drivers\STM32F1xx_HAL_Driver\stm32f1xx_hal_spi.o</file>
+            <file>$PROJ_DIR$\..\Core\Inc\stm32f1xx_hal_conf.h</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c</file>
+            <file>$PROJ_DIR$\..\Tools\flashDB\fal\fal_flash_stm32f1_port.c</file>
+            <file>$PROJ_DIR$\..\Tools\flashDB\fdb.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c</file>
+            <file>$PROJ_DIR$\..\Tools\Crypto\mac_aes.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c</file>
+            <file>$PROJ_DIR$\..\Tools\ATcmd\ATcmd.c</file>
+            <file>$PROJ_DIR$\..\Tools\ATcmd\ATport.c</file>
+            <file>$PROJ_DIR$\..\Tools\BLK\blink_test.c</file>
+            <file>$PROJ_DIR$\..\Tools\ATcmd\AT_Test.c</file>
+            <file>$PROJ_DIR$\..\Tools\flashDB\fal\fal.c</file>
+            <file>$PROJ_DIR$\..\Tools\flashDB\fal\fal_flash.c</file>
+            <file>$PROJ_DIR$\..\Tools\flashDB\fdb_kvdb.c</file>
+            <file>$PROJ_DIR$\..\Tools\flashDB\fdb_utils.c</file>
+            <file>$PROJ_DIR$\..\Tools\MALLOC\malloc.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Inc\stm32f1xx_hal_gpio_ex.h</file>
+            <file>$TOOLKIT_DIR$\inc\c\aarch32\iccarm_builtin.h</file>
+            <file>$PROJ_DIR$\..\Tools\MAC\mac_port.c</file>
+            <file>$PROJ_DIR$\..\Tools\BLK\blink.c</file>
+            <file>$PROJ_DIR$\VGdemoKit\Obj\Tools\ATcmd\ATcmd.o</file>
+            <file>$PROJ_DIR$\..\Drivers\CMSIS\Include\cmsis_compiler.h</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c</file>
+            <file>$PROJ_DIR$\VGdemoKit\Obj\Tools\BLK\blink_test.o</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c</file>
+            <file>$PROJ_DIR$\..\Tools\LIST\list.c</file>
+            <file>$TOOLKIT_DIR$\inc\c\stdint.h</file>
+            <file>$PROJ_DIR$\..\Tools\MAC\mac.h</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c</file>
+            <file>$PROJ_DIR$\VGdemoKit\Obj\Drivers\STM32F1xx_HAL_Driver\stm32f1xx_hal_rcc.o</file>
+            <file>$PROJ_DIR$\..\Tools\MAC\mac_test.c</file>
+            <file>$PROJ_DIR$\VGdemoKit\Obj\Drivers\STM32F1xx_HAL_Driver\stm32f1xx_hal.o</file>
+            <file>$PROJ_DIR$\..\Tools\Crypto\lorawan_aes.c</file>
+            <file>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c</file>
+            <file>$TOOLKIT_DIR$\lib\m7M_tl.a</file>
+            <file>$PROJ_DIR$\..\Tools\MAC\mac_phy.c</file>
+            <file>$PROJ_DIR$\VGdemoKit\Obj\Tools\ATcmd\AT_Test.o</file>
+            <file>$PROJ_DIR$\..\Tools\flashDB\fal\fal_partition.c</file>
+            <file>$PROJ_DIR$\..\Tools\MAC\mac.c</file>
+            <file>$PROJ_DIR$\..\Tools\MULTI_TIMER\MultiTimer.c</file>
+            <file>$TOOLKIT_DIR$\lib\dl7M_tlf.a</file>
+        </outputs>
+        <file>
+            <name>$PROJ_DIR$\..\BSP\radio\src\radio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 76</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 118 35 113 73 62 20 79 42 53 88 51 85 128 93 31 23 56 98 159 18 151 30 147 45 54 99 83 101 146 126 78 72 87 104 69 108 102 110 11 5 16 37 46</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\BSP\radio\src\sx126x.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 68</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 118 35 113 73 62 20 79 42 53 88 5 159 51 16 85 128 93 31 23 56 98 18 151 30 147 45 54 99 83 101 146 126 78 72 87 104 69 108 102 110</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Core\Src\system_stm32f1xx.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 92</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 23 56 98 159 35 113 73 62 20 18 151 30 147 45 85 128 93 31 54 99 53 83 101 146 126 78 72 87 104 69 108 102 110</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 82</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 85 128 93 31 23 56 98 159 35 113 73 62 20 18 151 30 147 45 54 99 53 83 101 146 126 78 72 87 104 69 108 102 110</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_spi.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 127</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 85 128 93 31 23 56 98 159 35 113 73 62 20 18 151 30 147 45 54 99 53 83 101 146 126 78 72 87 104 69 108 102 110</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\startup_stm32f103xe.s</name>
+            <outputs>
+                <tool>
+                    <name>AARM</name>
+                    <file> 107</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Core\Src\usart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 50</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 105 46 85 128 93 31 23 56 98 159 35 113 73 62 20 18 151 30 147 45 54 99 53 83 101 146 126 78 72 87 104 69 108 102 110 117 42 88 51</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Core\Src\stm32f1xx_it.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 122</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 46 85 128 93 31 23 56 98 159 35 113 73 62 20 18 151 30 147 45 54 99 53 83 101 146 126 78 72 87 104 69 108 102 110 34</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Core\Src\stm32f1xx_hal_msp.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 84</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 46 85 128 93 31 23 56 98 159 35 113 73 62 20 18 151 30 147 45 54 99 53 83 101 146 126 78 72 87 104 69 108 102 110</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Core\Src\main.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 60</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 46 85 128 93 31 23 56 98 159 35 113 73 62 20 18 151 30 147 45 54 99 53 83 101 146 126 78 72 87 104 69 108 102 110 94 105 37 41 77 65 22 57 51 42 88 17 117 27 80 95 89 55 100 115 33 38</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\BSP\radio\src\crc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 106</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 15 159 35 113 73 62 20</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Core\Src\gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 19</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 37 46 85 128 93 31 23 56 98 159 35 113 73 62 20 18 151 30 147 45 54 99 53 83 101 146 126 78 72 87 104 69 108 102 110</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Core\Src\spi.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 52</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 94 46 85 128 93 31 23 56 98 159 35 113 73 62 20 18 151 30 147 45 54 99 53 83 101 146 126 78 72 87 104 69 108 102 110</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>[ROOT_NODE]</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 90 67</file>
+                </tool>
+            </outputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\VGdemoKit\Exe\VGdemoKit.out</name>
+            <outputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 90</file>
+                </tool>
+                <tool>
+                    <name>OBJCOPY</name>
+                    <file> 125</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ILINK</name>
+                    <file> 66 170 150 49 70 153 106 71 97 111 44 119 64 25 19 59 47 61 63 116 39 32 60 81 75 76 52 107 165 121 91 120 74 43 58 82 84 86 163 103 127 29 109 96 122 68 92 50 28 168 174</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_gpio.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 58</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 85 128 93 31 23 56 98 159 35 113 73 62 20 18 151 30 147 45 54 99 53 83 101 146 126 78 72 87 104 69 108 102 110</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Tools\flashDB\fal\fal_flash_stm32f1_port.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 111</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 42 35 113 73 62 20 53 88 55 100 115 159 41 23 56 98 18 151 30 147 45 85 128 93 31 54 99 83 101 146 126 78 72 87 104 69 108 102 110</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Tools\flashDB\fdb.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 119</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 27 159 35 113 73 62 20 99 53 51 41 80 95 89 55 100 115 33 114 42 88</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 163</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 85 128 93 31 23 56 98 159 35 113 73 62 20 18 151 30 147 45 54 99 53 83 101 146 126 78 72 87 104 69 108 102 110</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Tools\Crypto\mac_aes.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 63</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 51 42 35 113 73 62 20 53 88 36 159 160 40 117 24 99</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_pwr.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 86</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 85 128 93 31 23 56 98 159 35 113 73 62 20 18 151 30 147 45 54 99 53 83 101 146 126 78 72 87 104 69 108 102 110</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 43</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 85 128 93 31 23 56 98 159 35 113 73 62 20 18 151 30 147 45 54 99 53 83 101 146 126 78 72 87 104 69 108 102 110</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_uart.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 96</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 85 128 93 31 23 56 98 159 35 113 73 62 20 18 151 30 147 45 54 99 53 83 101 146 126 78 72 87 104 69 108 102 110</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Tools\ATcmd\ATcmd.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 150</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 112 51 42 35 113 73 62 20 53 88 41 40 159 48 17</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Tools\ATcmd\ATport.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 49</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 17 159 35 113 73 62 20 85 128 93 31 23 56 98 18 151 30 147 45 54 99 53 83 101 146 126 78 72 87 104 69 108 102 110</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Tools\BLK\blink_test.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 153</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 85 128 93 31 23 56 98 159 35 113 73 62 20 18 151 30 147 45 54 99 53 83 101 146 126 78 72 87 104 69 108 102 110 17 124 42 88 51 46 24 41 40 22 57</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Tools\ATcmd\AT_Test.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 170</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 112 51 42 35 113 73 62 20 53 88 41 40 159 48 17 117</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Tools\flashDB\fal\fal.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 71</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 55 100 115 159 35 113 73 62 20 41 53</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Tools\flashDB\fal\fal_flash.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 97</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 55 100 115 159 35 113 73 62 20 41 53 42 88</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Tools\flashDB\fdb_kvdb.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 64</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 21 35 159 113 73 62 20 42 53 88 27 99 51 41 80 95 89 55 100 115 33 114</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Tools\flashDB\fdb_utils.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 25</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 41 35 113 73 62 20 53 42 88 27 159 99 51 80 95 89 55 100 115 33 114</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Tools\MALLOC\malloc.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 81</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 17 159 35 113 73 62 20</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Tools\MAC\mac_port.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 39</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 160 51 42 35 113 73 62 20 53 88 159 40 117 24 99 85 128 93 31 23 56 98 18 151 30 147 45 54 83 101 146 126 78 72 87 104 69 108 102 110 11 5 16 37 46 94 26</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Tools\BLK\blink.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 70</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 124 99 35 113 73 62 20 53 42 88 51</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_cortex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 121</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 85 128 93 31 23 56 98 159 35 113 73 62 20 18 151 30 147 45 54 99 53 83 101 146 126 78 72 87 104 69 108 102 110</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 165</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 85 128 93 31 23 56 98 159 35 113 73 62 20 18 151 30 147 45 54 99 53 83 101 146 126 78 72 87 104 69 108 102 110</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_exti.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 120</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 85 128 93 31 23 56 98 159 35 113 73 62 20 18 151 30 147 45 54 99 53 83 101 146 126 78 72 87 104 69 108 102 110</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 29</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 85 128 93 31 23 56 98 159 35 113 73 62 20 18 151 30 147 45 54 99 53 83 101 146 126 78 72 87 104 69 108 102 110</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_flash.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 74</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 85 128 93 31 23 56 98 159 35 113 73 62 20 18 151 30 147 45 54 99 53 83 101 146 126 78 72 87 104 69 108 102 110</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Tools\LIST\list.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 59</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 41 35 113 73 62 20 53 17 159 117 42 88 51</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_rcc_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 103</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 85 128 93 31 23 56 98 159 35 113 73 62 20 18 151 30 147 45 54 99 53 83 101 146 126 78 72 87 104 69 108 102 110</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_dma.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 91</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 85 128 93 31 23 56 98 159 35 113 73 62 20 18 151 30 147 45 54 99 53 83 101 146 126 78 72 87 104 69 108 102 110</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Tools\MAC\mac_test.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 32</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 41 35 113 73 62 20 53 51 42 88 85 128 93 31 23 56 98 159 18 151 30 147 45 54 99 83 101 146 126 78 72 87 104 69 108 102 110 160 40 117 24 38 123 46 11 26 5 16</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Tools\Crypto\lorawan_aes.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 47</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 22 35 113 73 62 20 53 57 159 36</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Drivers\STM32F1xx_HAL_Driver\Src\stm32f1xx_hal_tim_ex.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 109</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 85 128 93 31 23 56 98 159 35 113 73 62 20 18 151 30 147 45 54 99 53 83 101 146 126 78 72 87 104 69 108 102 110</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Tools\MAC\mac_phy.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 116</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 118 35 113 73 62 20 79 11 159 51 5 16 65 85 128 93 31 23 56 98 18 151 30 147 45 54 99 53 83 101 146 126 78 72 87 104 69 108 102 110 37 46 41 22 57 42 88 160 40 117 24 17</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Tools\flashDB\fal\fal_partition.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 44</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 55 100 115 159 35 113 73 62 20 41 53 42 88 22 57</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Tools\MAC\mac.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 61</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 51 42 35 113 73 62 20 53 88 41 38 159 15 17 160 40 117 24 99 123</file>
+                </tool>
+            </inputs>
+        </file>
+        <file>
+            <name>$PROJ_DIR$\..\Tools\MULTI_TIMER\MultiTimer.c</name>
+            <outputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 75</file>
+                </tool>
+            </outputs>
+            <inputs>
+                <tool>
+                    <name>ICCARM</name>
+                    <file> 38 159 35 113 73 62 20 41 53</file>
+                </tool>
+            </inputs>
+        </file>
+        <forcedrebuild>
+            <name>[REBUILD_ALL]</name>
+        </forcedrebuild>
+    </configuration>
+</project>
